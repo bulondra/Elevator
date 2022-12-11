@@ -1,0 +1,9 @@
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\bin\Debug\Elevator.exe.config
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\bin\Debug\Elevator.exe
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\bin\Debug\Elevator.pdb
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\bin\Debug\Automation.BDaq4.dll
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\obj\Debug\Elevator.csprojAssemblyReference.cache
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\obj\Debug\Elevator.csproj.CoreCompileInputs.cache
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\obj\Debug\Elevator.csproj.CopyComplete
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\obj\Debug\Elevator.exe
+C:\Users\bulka.ondrej3\source\repos\Elevator\Elevator\obj\Debug\Elevator.pdb

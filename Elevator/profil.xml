@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAQNavi Version="3.2.1.0" Profile="1.0.0.0">
+    <DaqDevice ModuleIndex="0">
+        <Property ID="8">
+            <Description>Product ID:</Description>
+            <Attribute>0</Attribute>
+            <Type>2</Type>
+            <EnumType>ProductId</EnumType>
+            <Tip>Product ID is used to represent a DAQ Device model and distinguish devices of different models. Each device model owns an unique Product ID.</Tip>
+            <Value>2057</Value>
+        </Property>
+    </DaqDevice>
+    <DaqDio ModuleIndex="0">
+        <Property ID="120">
+            <Description>DI Data Mask:</Description>
+            <Attribute>0</Attribute>
+            <Type>65536</Type>
+            <EnumType></EnumType>
+            <Tip>DiDataMask is used to describe whether each channel of a digital port is used DI function or not. The value of DataMask has 8 bits and each bit corresponds to one channel of the digital port. Value 1 means that the corresponding channel can be used for DI function. DiDataMask of this port will be changed when the port direction changing.</Tip>
+            <Value>255,255,255,255</Value>
+        </Property>
+        <Property ID="121">
+            <Description>DO Data Mask:</Description>
+            <Attribute>0</Attribute>
+            <Type>65536</Type>
+            <EnumType></EnumType>
+            <Tip>Do DataMask is used to describe whether each channel of  one digital port could be used for digital output.  Every DataMask has 8 bits and each bit corresponds to one channel of digital port. When the value of one bit is 1, it means the corresponding channel could be used for digital output.DoDataMask of this port will be changed when the port direction changing.</Tip>
+            <Value>255,255,255,255</Value>
+        </Property>
+        <Property ID="124">
+            <Description>Trigger Edge:</Description>
+            <Attribute>1</Attribute>
+            <Type>65536</Type>
+            <EnumType>ActiveSignal</EnumType>
+            <Tip>Gets or sets the signal edge of trigger source at which the signal is considered as a valid trigger signal.</Tip>
+            <Value>1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0</Value>
+        </Property>
+        <Property ID="354">
+            <Description>DI Inverse Ports:</Description>
+            <Attribute>1</Attribute>
+            <Type>65536</Type>
+            <EnumType></EnumType>
+            <Tip>Gets or sets whether enable the DI value inverse.</Tip>
+            <Value>0,0,0,0</Value>
+        </Property>
+        <Property ID="26">
+            <Description>Channel Number Max:</Description>
+            <Attribute>2</Attribute>
+            <Type>2</Type>
+            <EnumType></EnumType>
+            <Tip> Max number of physical channel.Physical channel refers to visible input/output terminals or pins that can connect wires on a data acquisition card.</Tip>
+            <Value>31</Value>
+        </Property>
+        <Property ID="82">
+            <Description>Ports Type:</Description>
+            <Attribute>0</Attribute>
+            <Type>65536</Type>
+            <EnumType>DioPortType</EnumType>
+            <Tip>The type of all digital port.There are six kinds of port type,the name and meaning, listed in the DioPortType Enumeration.</Tip>
+            <Value>2,2,2,2</Value>
+        </Property>
+        <Property ID="86">
+            <Description>Interrupt Channels</Description>
+            <Attribute>0</Attribute>
+            <Type>65536</Type>
+            <EnumType></EnumType>
+            <Tip>Gets which channels support DI interrupt function. </Tip>
+            <Value>1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0</Value>
+        </Property>
+        <Property ID="85">
+            <Description>Interrupt Trigger Edge:</Description>
+            <Attribute>0</Attribute>
+            <Type>65536</Type>
+            <EnumType>ActiveSignal</EnumType>
+            <Tip>The supported trigger edge type which can be used in DI Interrupt. </Tip>
+            <Value>1,2</Value>
+        </Property>
+    </DaqDio>
+</DAQNavi>
